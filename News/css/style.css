@@ -98,9 +98,7 @@ h2{
 }
 
 
-.big-new div{
-	z-index: 10;
-	background-color: rgba(0, 0, 0, 0.5);
+.big-new p{
 	padding-top: 30px;
 	padding-left: 30px;
 }	

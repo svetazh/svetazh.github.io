@@ -85,7 +85,7 @@ h2{
 .big_new{
 	background-image: url("../images/img1_1.jpg");
 	background-size: cover;
-	width: 360px;
+	width: 330px;
 	height: 152px;
 	margin: 20px auto;
 	padding-bottom: 0;
@@ -98,12 +98,6 @@ h2{
 	padding-left: 30px;
 	
 }
-
-
-.big-new p{
-	padding-top: 30px;
-	padding-left: 30px;
-}	
 
 .big_new a{
 	display: block;

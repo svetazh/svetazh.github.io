@@ -19,7 +19,7 @@ body {
 
 .news-wrapper {
 	max-width: 800px;
-	margin: 120px auto;
+	margin: 50px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,4 +128,52 @@ article .content-holder.big-image .container a{
 	content: '';
 	display: table;
 	clear: both;
+}
+
+.header{
+	padding: 10px;
+	background-color: white;
+	min-height: 70px;
+}
+
+.header .image-holder{
+	float: left;
+	margin-left: 7%;
+}
+
+.header ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 7%;
+	width: 50%;
+	min-height: 50px;
+	float: right;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	align-content: space-around;
+	align-items: center;
+
+}
+
+.header a{
+	text-decoration: none;
+	color: #00A3FF;
+}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	align-content: space-around;
+	align-items: center;
+	background-color: #3f3f3f;
+	height: 80px;
+	color: white;
+
 }

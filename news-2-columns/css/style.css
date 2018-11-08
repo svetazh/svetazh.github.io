@@ -165,6 +165,9 @@ article .content-holder.big-image .container a{
 }
 
 .footer{
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -174,7 +177,7 @@ article .content-holder.big-image .container a{
 	align-content: space-around;
 	align-items: center;
 	background-color: #3f3f3f;
-	min-height: 70px;
+	height: 80px;
 	color: white;
 
 }

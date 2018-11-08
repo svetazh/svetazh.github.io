@@ -19,6 +19,7 @@ body {
 
 .news-wrapper {
 	max-width: 800px;
+	min-height: 80%;
 	margin: 50px auto;
 }
 
@@ -133,7 +134,7 @@ article .content-holder.big-image .container a{
 .header{
 	padding: 10px;
 	background-color: white;
-	min-height: 70px;
+	min-height: 10%;
 }
 
 .header .image-holder{
@@ -173,7 +174,7 @@ article .content-holder.big-image .container a{
 	align-content: space-around;
 	align-items: center;
 	background-color: #3f3f3f;
-	height: 80px;
+	min-height: 10%;
 	color: white;
 
 }

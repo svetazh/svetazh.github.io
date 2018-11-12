@@ -14,13 +14,20 @@ body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: normal;	
 	font-size: 13px;
-	min-height: 100%;
 	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
 
 .news-wrapper {
 	max-width: 800px;
-	
 	margin: 50px auto;
 }
 
@@ -133,24 +140,28 @@ article .content-holder.big-image .container a{
 }
 
 .header{
-	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px;
 	background-color: white;
-	min-height: 10%;
+	min-height: 70px;
 }
 
 .header .image-holder{
-	float: left;
 	margin-left: 7%;
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .header ul{
+	margin-left: 7%;
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
 	margin-right: 7%;
 	width: 50%;
 	min-height: 50px;
-	float: right;
 	justify-content: space-between;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -160,16 +171,16 @@ article .content-holder.big-image .container a{
 
 }
 
+.header li{
+	margin-right: 20px;
+}
+
 .header a{
 	text-decoration: none;
 	color: #00A3FF;
 }
 
 .footer{
-	position: fixed;
-  	left: 0;
-  	bottom: 0;
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

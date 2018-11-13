@@ -16,6 +16,15 @@ body {
 	font-size: 13px;
 	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
 }
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
 
 .news-wrapper {
 	max-width: 800px;

@@ -1,0 +1,45 @@
+html, body{
+	min-height: 100%;
+	box-sizing: border-box;
+}
+
+
+
+body{
+	background: rgb(117, 165, 140);
+background: -webkit-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: -o-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: -ms-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+}
+
+
+h1{
+	
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+	                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.card-header{
+	font-family: 'PT Serif Caption', serif;
+}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	align-content: space-around;
+	align-items: center;
+	background-color: #5d8370;
+	height: 50px;
+	color: white;
+
+}
+

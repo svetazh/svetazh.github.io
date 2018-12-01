@@ -1,89 +1,46 @@
-body{
-	font-size: 20px;
-	line-height: 1.5;
-	font-family: 'Roboto', sans-serif;
+
+html, body{
+	min-height: 100%;
+	box-sizing: border-box;
 }
 
-.headr{
-	margin-top: 0;
-	height: 210px;
-	background-color: lightsteelblue;
+
+
+body{
+	background: rgb(117, 165, 140);
+background: -webkit-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: -o-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: -ms-linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
+background: linear-gradient(0deg, rgb(117, 165, 140) 0%, rgb(227, 236, 233) 100%);
 }
+
 
 h1{
-	font-family: cursive;
-	font-size: 42px;
-	color: maroon;
-	padding-left: 50px;
-	padding-top: 10px;
-}
-
-.headr img{
-	float: left;
-	width:150px;
-	height: 190px;
-	padding:10px 80px;
-	border-radius: 90px;
-}
-
-.cont{
-	float: right;
-	font-style: italic;
-	padding-right: 40px;
-	padding-top: 10px;
-}
-
-h2{
-	text-align: center;
-	color: #FF4136;
-	font-size: 30px;
-}
-
-p{
 	
-	padding-left: 50px;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+	                 0px -5px 35px rgba(255,255,255,0.3);
 }
 
-
-.kol1{
-	padding-left: 10px;
-	float: left; 
-	width: 49%;
-	
+.card-header{
+	font-family: 'PT Serif Caption', serif;
 }
 
-.kol2{
-	padding-left: 10px;
-	float: right; 
-	width: 49%;
-	}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	align-content: space-around;
+	align-items: center;
+	background-color: #5d8370;
+	height: 50px;
+	color: white;
 
-
-#more ul{
-	padding-left: 60px;
 }
 
-.menu{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.menu li{
-	display: inline-block;
-	margin: 5px;
-	white-space: nowrap;
-}
-
-.menu a{
-	color: #0088cc;
-	display: block;
-	padding: 8px 10px;
-	background-color: #f5f5f5;
-	border-left: 1px solid #e5e5e5;
-	margin-left: -1px;
-}
-
-.menu a:hover{
-	background-color: #eeeeee;
-}

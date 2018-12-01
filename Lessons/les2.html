@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<header>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/lessons.css">
+	</header>
+
+	<body>
+
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light px-3">			
+  			<a class="navbar-brand" href="#"><img src="../img/logo-2.png" class ="img-fluid"></a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<div class="collapse navbar-collapse" id="navbar1">
+    			<ul class="navbar-nav mr-auto">
+      				<li class="nav-item mx-3">
+        				<a class="nav-link" href="../index.html">Головна</a>
+      				</li>
+		    		<li class="nav-item  mx-3">
+		    			<a class="nav-link" href="program.html">Навчальна програма</a>
+		    		</li>
+      				<li class="nav-item mx-3 active dropdown">
+        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Матеріали до занять</a>
+        				<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+          					<a class="dropdown-item" href="les1.html">Заняття 1<span class="sr-only">(поточна)></span></a>
+          					<a class="dropdown-item active" href="#">Заняття 2</a>
+          					<div class="dropdown-divider"></div>
+          					<a class="dropdown-item" href="#">До фінальних проектів</a>
+        				</div>
+      				</li>
+    			</ul>
+    			<form class="form-inline my-2 my-lg-0">
+      				<input class="form-control mr-sm-2" type="search" placeholder="Пошук" aria-label="Search">
+      				<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Пошук</button>
+    			</form>
+  			</div>
+  		</nav>
+
+
+
+<div class="container-fluid">
+			<div class="container">
+				<h1>Заняття 2</h1>
+				<div class="row  justify-content-center">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card text-white bg-primary mb-3 m-2">
+						<div class="card-header">Тема 3. </div>
+						<div class="card-body">
+							<h5 class="card-title">Базові елементи - 2</h5>
+							<ul class="card-text">
+								<li>Більше про блоки - div, span</li>
+								<li>Нумеровані та ненумеровані списки</li>
+								<li>HTML entities</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card text-white bg-primary mb-3 m-2">
+						<div class="card-header">Тема 4. </div>
+						<div class="card-body">
+							<h5 class="card-title">Вступ до CSS (каскадних таблиць стилів)</h5>
+							<ul class="card-text">
+								<li>Синтаксис CSS</li>
+								<li>Прості селектори</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+<div class="container">
+<p>Блочним називається елемент, який відображається на веб-сторінці у вигляді прямокутника. Такий елемент займає всю доступну  ширину, висота елемента визначається його вмістом, і він завжди починається з нового рядка. До блочних елементів відносяться теги  	&lt;address&gt;,  	&lt;blockquote>,  	&lt;div&gt;,  	&lt;fieldset&gt;,  	&lt;form&gt;,  	&lt;h1&gt;,..., 	&lt;h6&gt;,  	&lt;hr&gt;,  	&lt;ol&gt;,  	&lt;p&gt;,  	&lt;pre&gt;,  	&lt;table&gt;,  	&lt;ul&gt;. Також блочним стає елемент, якщо в стилі для нього властивість display задана як block, list-item, table.<p>
+
+Для блочних елементів характерні наступні особливості:
+<ul>
+    <li>Блоки розміщуються вертикально один під одним.</li>
+    <li>На прилеглих сторонах блоків відбувається ефект накладання відступів.</li>
+    <li>Забаронено вставляти блочний елемент всередину рядкового. Наприклад, &lt;a&gt;&lt;h1&gt;Заголовок&lt;/h1&gt;&lt;/a&gt; не пройде валідацію, правильно вкласти теги навпаки — &lt;h1&gt;&lt;a&gt;Заголовок&lt;/a&gt;&lt;/h1&gt;.</li>
+    <li>По ширині блочні елементи занймають весь доступний простір.</li>
+    <li>Якщо задана ширина контенту (властивість width), то ширина блоку складається із значень width, полів, границь, відступів зліва та справа.</li>
+    <li>Висота блочного элементу обчислюється браузером автоматично, виходячи із вмісту блоку.</li>
+    <li>Якщо задана висота контенту (властивість height), то висота блоку складається із значень height, полів, границь, відступів зверху та знизу. При перевищенні вказаної висоти контент відображається поверх блоку.</li>
+    <li>На блочні елементы не діють властивості, призначені для рядкових елементів, як наприклад vertical-align.</li>
+    <li>Текст за замовчуванням вирівнюється по лівому краю.</li>
+</ul>
+
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	</body>
+</html>
